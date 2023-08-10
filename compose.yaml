@@ -1,0 +1,14 @@
+services:
+  postgres:
+    image: 'postgres:latest'
+    container_name: weebook-db
+    environment:
+      - 'POSTGRES_DB=weebook'
+      - 'POSTGRES_PASSWORD=db-password'
+      - 'POSTGRES_USER=db-user'
+    ports:
+      - '5432:5432'
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+volumes:
+  pg_data:
