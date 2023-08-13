@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DatabaseMigrationSettings" lastSelectedDirectory="src\main\resources\db\migration" />
+  <component name="JpaPluginProjectSettings" unpluralizeTableName="false" reUseIdeaUltimateIntegration="false" reExcludeTablePrefixes="" reExcludeColumnPrefixes="" reExcludeTableSuffixes="" reExcludeColumnSuffixes="">
+    <option name="entityNameTemplate" />
+    <option name="isLombokToString" value="true" />
+    <option name="isLombokBuilder" value="true" />
+    <option name="isLombokAllArgsConstructor" value="true" />
+    <option name="isLombokNoArgsConstructor" value="true" />
+    <option name="useLazyOnToOneAssociations" value="true" />
+    <option name="scaffoldingLanguage" />
+  </component>
+  <component name="PersistenceUnitSettings">
+    <persistence-units>
+      <persistence-unit moduleName="weebook-web-services" name="Default" defaultSearchScope="Project">
+        <packages>
+          <package value="org.weebook.api" />
+        </packages>
+      </persistence-unit>
+    </persistence-units>
+  </component>
+</project>
